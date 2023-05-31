@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person_icon"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_rehab"
+            android:icon="@drawable/health_logo"
+            android:title="Rehab"/>
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/progress_icon"
+            android:title="Progress"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About Us"/>
+        <item
+            android:id="@+id/nav_resource"
+            android:icon="@drawable/history_icon"
+            android:title="Resources"/>
+   </group>
+    <item  android:title="logout">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/nav_logout"
+                android:title="Log-Out"/>
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_rate"-->
+<!--                    android:icon="@drawable/rate_logo"-->
+<!--                    android:title="Rate Us"/>-->
+
+        </group>
+        </menu>
+
+    </item>
+<!--        </menu>-->
+    <item  android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/phone_icon"
+                android:title="Contact Us"/>
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_logo"
+                android:title="Rate Us"/>
+            </group>
+        </menu>
+
+    </item>
+</menu>

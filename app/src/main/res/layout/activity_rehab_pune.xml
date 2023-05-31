@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d3"
+    tools:context=".rehab_pune">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rehabilitation Centre in Pune"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+<!--        android:clickable="true"-->
+
+        <TextView
+            android:id="@+id/rpune3"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="15dp"
+            android:text="Rehab No:1\nLifeLine Centre\n\nSurvey No. 46/1/1, Heaven Park Near Old Ganesh Temple, Mohammed Wadi, Pune, Maharashtra 411028\nPhone:9820664345"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+        <TextView
+
+            android:id="@+id/rpune1"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r1"
+            android:padding="15dp"
+            android:text="Rehab No:2\nTrucare Trust \n\n Address : 258/2B, Plot, No.19, Lohgaon Rd, near Pune Airport, Khese Park, Lohegaon, Pune, Maharashtra 411032\nPhone:9167943134"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+        <TextView
+            android:id="@+id/rpune2"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="15dp"
+            android:text="Rehab No:3\nCareNext Institute\n\nAddress:Above Apple Multispeciality hospital, opposite Forest Trails, Bhugaon, Pune, Maharashtra 411023\nPhone: 078238 76620"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+
+        <!--        <Button-->
+<!--            android:id="@+id/button7"-->
+<!--            -->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_margin="25dp"-->
+<!--            android:text="Button" />-->
+    </LinearLayout>
+</ScrollView>

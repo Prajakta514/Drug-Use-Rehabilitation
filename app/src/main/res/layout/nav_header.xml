@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/profilepic"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/s1"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drug Use and Rehab"
+        android:layout_below="@+id/profilepic"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="18dp"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact@drugrehab.com"
+        android:layout_below="@id/name"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginLeft="18dp"/>
+   <View
+       android:layout_width="match_parent"
+      android:layout_below="@id/username"
+       android:background="@color/lavender"
+       style="@style/line"/>
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="225dp"-->
+<!--    android:gravity="bottom"-->
+<!--    android:padding="20dp"-->
+<!--    android:background="@drawable/s5"-->
+<!--    android:theme="@style/ThemeOverlay.AppCompat.Dark"-->
+
+<!--    >-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="147dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:src="@drawable/s10" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Drug Use and Rehabilitation"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="contact@drugrehab.com"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--&lt;!&ndash;    android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="16dp"&ndash;&gt;-->
+
+<!--</LinearLayout>-->

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d3"
+    tools:context=".rehab_pune">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rehabilitation Centre in Nagpur"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/rpune1"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="15dp"
+            android:text="Rehab No:7\nLaksh Vyasanmukti Kendra\n\nAddress:102, Jayanti Mansion 3, Santaji Society, Manish Nagar, Somalwada, Nagpur, Maharashtra 440015\nPhone:7222999516"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <TextView
+            android:id="@+id/rpune2"
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r1"
+            android:padding="15dp"
+            android:text="Rehab No:8\nJeevan Jyot\n\nPlot No 20, Gopal Nagar, Nagpur - 440022 (Near 3 Rd Bus Stop Near Mangalkar Jewellers and Laxmi Kirana)\nPhone:7722007064"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <TextView
+            android:id="@+id/rpune4"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="15dp"
+            android:text="Rehab No:9\nVyakti Nirman Vyasanmukti\n\nNasha Mukti kendra, Deaddiction Center, Besa, Nagpur\nPhone:7972435258"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button7"-->
+        <!--            -->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:layout_margin="25dp"-->
+        <!--            android:text="Button" />-->
+    </LinearLayout>
+</ScrollView>

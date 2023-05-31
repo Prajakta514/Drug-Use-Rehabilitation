@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RehabActivity2"
+    android:background="@drawable/p5">
+
+    <TextView
+        android:id="@+id/Rehab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Drug Use and Rehabilitation"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/rehabcentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="REHABILITATION CENTRE"
+        android:textAlignment="center"
+        android:textColor="#fff777"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rehabcentre"
+        android:layout_margin="20dp"
+        android:columnCount="1"
+        android:rowCount="4">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rehab1"
+            android:layout_width="285dp"
+            android:layout_height="1850dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/person_icon" />
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:layout_height="38dp"
+                    android:text="REHAB centre1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rehab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/person_icon"/>
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:layout_height="38dp"
+                    android:text="REHAB centre2"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rehab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/person_icon"/>
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:layout_height="38dp"
+                    android:text="REHAB centre3"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rehab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/person_icon"/>
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:layout_height="38dp"
+                    android:text="REHAB centre4"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</RelativeLayout>

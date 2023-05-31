@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d2"
+    tools:context=".resource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="184dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:text="RESOURCES"
+            android:textAlignment="center"
+            android:textColor="#020000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="318dp"
+            android:layout_height="253dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/c1"
+            android:padding="30dp"
+
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.272" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="335dp"
+            android:layout_height="238dp"
+            android:layout_marginLeft="30dp"
+            android:text="\n\nBehavioral therapy is perhaps the most commonly utilized types of treatment for addiction that is frequently used during substance rehabilitation. A general behavioral therapeutic approach has been adapted into a variety of effective techniques. "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="332dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:text="\n\Cognitive-Behavioral Therapy (CBT) for Addiction and Substance Abuse"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="348dp"
+            android:layout_height="297dp"
+            android:layout_marginLeft="30dp"
+            android:text="Cognitive behavioral therapy, or CBT, is a form of psychotherapy that is effective in treating a range of mental health issues including mood disorders, anxiety disorders, and substance use disorders.CBT emphasizes changing negative thought patterns to change behaviors, as well as developing and implementing healthy coping skills into one’s life."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="332dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="35dp"
+            android:text="\nDialectical Behavior Therapy (DBT) for Addiction Treatment"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="361dp"
+            android:layout_height="355dp"
+            android:layout_marginLeft="30dp"
+            android:text=" DBT is an evidence-based form of psychotherapy used to treat people with multiple mental health conditions.The DBT approach is multidimensional and comprehensive and relies on learning skills to change unhelpful thoughts and behaviors.
+
+Therapists using DBT teach critical behavioral skills by modeling, providing instructions, telling stories, practicing, giving feedback, and coaching. DBT uses a variety of strategies and techniques ."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+
+        <TextView
+            android:id="@+id/abt"
+            android:layout_width="344dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:text="Committing a drug-related crime: What are the consequences?"
+            android:textAlignment="center"
+            android:textColor="#020000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="318dp"
+            android:layout_height="253dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/g1"
+            android:padding="50dp"
+            android:layout_marginBottom="20dp"
+
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.272" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="343dp"
+            android:layout_height="860dp"
+            android:layout_marginLeft="30dp"
+            android:text=" Punishments for drug-related offences : Punishments under the NDPS Act are based on what drug is involved and the quantity of the drug (these quantities are specified in the law). A commercial quantity is the largest quantity of a drug for which the punishment will be the most severe. For example, the punishment for being found with a small quantity of cocaine (2 gms) is imprisonment for up to one year, but the punishment for having a commercial quantity of cocaine (100 gms) is imprisonment of 10 to 20 years and a fine of Rs. 1-2 lakhs.
+\n\nGetting bail for drug crimes : Section 37 of the NDPS Act says that drug-related offences are cognizable and non-bailable. This means that if you are accused of a drug-related crime, you can be arrested even without a warrant. Once you have been arrested, you can only get bail if you apply for it in court and it is granted by the court. If you are accused of an offence that involves commercial quantities of a drug, then the conditions for getting bail are very strict."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d3"
+    tools:context=".rehab_pune">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rehabilitation Centre in Mumbai"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/rpune1"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="25dp"
+            android:text="Rehab No:4\nI care Institute\n\nAddress:Krish Krupa Banglow, Madh Island Road, Malad West, mumbai - 400064\nPhone:8693092000"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <TextView
+            android:id="@+id/rpune2"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r1"
+            android:padding="15dp"
+            android:text="Rehab No:5\nAbhilasha Institute\n\nAddress:O.D Bulglow No 94, Malvani Gate No 8, Behind Paras Building, Malad West, Mumbai - 400095\nPhone:8484929037"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <TextView
+            android:id="@+id/rpune3"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/r2"
+            android:padding="15dp"
+            android:text="Rehab No:6\nNirved Foundation\n\nPink Bungalow No 2,Omkar Seva Society Junction Marve Road Malad (West, 400095, Marve Village Rd, Marve, Mumbai, Maharashtra 400095\n9022254722"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button7"-->
+        <!--            -->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:layout_margin="25dp"-->
+        <!--            android:text="Button" />-->
+    </LinearLayout>
+</ScrollView>
